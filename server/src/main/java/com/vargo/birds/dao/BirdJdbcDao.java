@@ -1,10 +1,12 @@
-package com.vargo.birds;
+package com.vargo.birds.dao;
+
+import java.util.List;
 
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
+import com.vargo.birds.Bird;
 
 @Repository
 public class BirdJdbcDao implements BirdDao {

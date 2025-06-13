@@ -1,7 +1,7 @@
 # developer-coding-exercise
 Coding exercise for interview. 
 
-This is a simple full-stack application to fulfill the skill assessment requirements.
+This is a simple full-stack application to fulfill the interview exercise requirements.
 
 Tech Stack:
 
@@ -34,4 +34,6 @@ From the project folder, run
     - Frontend: http://localhost:3000
     - Backend: http://localhost:8080
 
-    To use, enter a bird ID (1-10) in the form input.
+    To use, enter a bird ID (1-10) in the form input and hit submit.
+
+

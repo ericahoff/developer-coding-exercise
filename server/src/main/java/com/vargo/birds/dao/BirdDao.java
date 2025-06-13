@@ -1,6 +1,8 @@
-package com.vargo.birds;
+package com.vargo.birds.dao;
 
 import java.util.List;
+
+import com.vargo.birds.Bird;
 
 public interface BirdDao {
     List<String> getHabitatsForBird(int birdId);
