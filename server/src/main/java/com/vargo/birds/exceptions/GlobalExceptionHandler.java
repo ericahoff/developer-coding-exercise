@@ -1,4 +1,4 @@
-package com.vargo.birds;
+package com.vargo.birds.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;

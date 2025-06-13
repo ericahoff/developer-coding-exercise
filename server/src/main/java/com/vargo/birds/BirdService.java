@@ -1,7 +1,11 @@
 package com.vargo.birds;
 
-import org.springframework.stereotype.Service;
 import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.vargo.birds.dao.BirdDao;
+import com.vargo.birds.exceptions.BirdNotFoundException;
 
 @Service
 public class BirdService {
