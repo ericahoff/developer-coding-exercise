@@ -1,6 +1,4 @@
-# developer-coding-exercise
-Coding exercise for interview.   
-
+# developer-coding-exercise  
 This is a simple full-stack application to fulfill the interview exercise requirements.  
 
 Tech Stack:  
@@ -15,7 +13,7 @@ Container: Docker / Docker Compose
 - Ensure available ports:   
     3000 (frontend)   
     8080 (backend)   
-    3306(MySQL)  
+    3306 (MySQL)  
 
 1. Clone repo and open the project folder  
 
@@ -37,18 +35,18 @@ From the project folder, run
     To access the backend form, navigate to http://localhost:8080/form  
 
 **Deliverables**
-1. Databse  
+1. Database  
 Create tables -> https://github.com/ericahoff/developer-coding-exercise/blob/main/db/01-schema.sql  
 Populate tables -> https://github.com/ericahoff/developer-coding-exercise/blob/main/db/02-data.sql  
 
 These should run with the initial container build.  
 
 2. Spring JDBC Service:  
-https://github.com/ericahoff/developer-coding-exercise/blob/main/server/src/main/java/com/vargo/birds/BirdService.java  
+    https://github.com/ericahoff/developer-coding-exercise/blob/main/server/src/main/java/com/vargo/birds/BirdService.java  
 
-https://github.com/ericahoff/developer-coding-exercise/blob/main/server/src/main/java/com/vargo/birds/dao/BirdJdbcDao.java  
+    https://github.com/ericahoff/developer-coding-exercise/blob/main/server/src/main/java/com/vargo/birds/dao/BirdJdbcDao.java  
 
-getHabitatsForBird fulfills the requirement. 
+    getHabitatsForBird fulfills the requirement. 
 
 3. https://github.com/ericahoff/developer-coding-exercise/blob/main/server/src/main/java/com/vargo/birds/BirdController.java  
 
