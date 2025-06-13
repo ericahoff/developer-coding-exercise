@@ -31,7 +31,7 @@ cd developer-coding-exercise
 2. Run the app
 From the project folder, run
 `docker-compose up --build`
-(this may take a moment, but should build the backend & frontend, and create / seed the db)
+(this may take a moment, but should build the backend & frontend, and create / seed the db on the initial run. after initial run, you can run again with just `docker-compose up`)
 
 3. Once its built and running, open in browser
     - Frontend: http://localhost:3000
