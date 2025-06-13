@@ -1,0 +1,11 @@
+services:
+  mysql:
+    image: mysql:8
+    container_name: bird-db
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: birds
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./db/init:/docker-entrypoint-initdb.d
