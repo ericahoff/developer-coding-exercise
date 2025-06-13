@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Bird Habitat Form</title>
+</head>
+<body>
+    <!-- 3.1. Display a form with a single input for the key from 2 and a submit button. -->
+    <form method="get"
+        onsubmit="this.action = '/birds/' + document.getElementById('birdInput').value + '/habitats'">
+        <label for="birdInput">Bird ID:</label>
+        <input type="number" id="birdInput" required />
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
